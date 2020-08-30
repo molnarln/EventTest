@@ -1,0 +1,11 @@
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\bin\Debug\netcoreapp2.2\EventTest.deps.json
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\bin\Debug\netcoreapp2.2\EventTest.runtimeconfig.json
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\bin\Debug\netcoreapp2.2\EventTest.runtimeconfig.dev.json
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\bin\Debug\netcoreapp2.2\EventTest.dll
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\bin\Debug\netcoreapp2.2\EventTest.pdb
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\obj\Debug\netcoreapp2.2\EventTest.csprojAssemblyReference.cache
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\obj\Debug\netcoreapp2.2\EventTest.csproj.CoreCompileInputs.cache
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\obj\Debug\netcoreapp2.2\EventTest.AssemblyInfoInputs.cache
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\obj\Debug\netcoreapp2.2\EventTest.AssemblyInfo.cs
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\obj\Debug\netcoreapp2.2\EventTest.dll
+C:\Users\laszl\Documents\Programozas\greenfox\EventTest\obj\Debug\netcoreapp2.2\EventTest.pdb
