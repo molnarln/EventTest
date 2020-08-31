@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj": {}
+    "c:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj": {
+    "c:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj",
+        "projectUniqueName": "c:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj",
         "projectName": "EventTest",
-        "projectPath": "C:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj",
+        "projectPath": "c:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\EventTest.csproj",
         "packagesPath": "C:\\Users\\laszl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\obj\\",
+        "outputPath": "c:\\Users\\laszl\\Documents\\Programozas\\greenfox\\EventTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

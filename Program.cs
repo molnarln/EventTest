@@ -7,9 +7,9 @@ namespace EventTest
 {
     class Program
     {
-        static void MaximumReached(string input)
+        static void MaximumReached(object source, MyEventArgs e)
         {
-            Console.WriteLine(input);
+            Console.WriteLine(e.GetInfo());
         }
 
         static void Main(string[] args)
@@ -30,7 +30,7 @@ namespace EventTest
     // You will notice that the second parameter is of MyEventArgs type.
     // This object will contain information about the triggered event.
 
-    public delegate void MyEventHandler(string valami);
+    public delegate void MyEventHandler(object source, MyEventArgs e);
 
     // This is a class which describes the event to the class that receives it.
     // An EventArgs class must always derive from System.EventArgs.
@@ -78,7 +78,9 @@ namespace EventTest
                     // we check the event to make sure it's not null.
                     if (OnMaximum != null)
                     {
-                        OnMaximum("lol");
+                        OnMaximum(this, new MyEventArgs("You've entered "
+                                          + value.ToString() + ", but the maximum is "
+                                          + Maximum.ToString()));
                     }
                 }
             }
