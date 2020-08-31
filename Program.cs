@@ -16,7 +16,7 @@ namespace EventTest
         {
             // Now lets test the event contained in the above class.
             MyClass MyObject = new MyClass();
-            MyObject.OnMaximum += new MyEventHandler(MaximumReached);
+            MyObject.OnMaximum += new EventHandler<MyEventArgs>(MaximumReached);
             for (int x = 0; x <= 15; x++)
             {
                 MyObject.MyValue = x;
@@ -58,7 +58,7 @@ namespace EventTest
 
     public class MyClass
     {
-        public event MyEventHandler OnMaximum;
+        public event EventHandler<MyEventArgs> OnMaximum;
 
         private int i;
         private int Maximum = 10;
@@ -78,9 +78,10 @@ namespace EventTest
                     // we check the event to make sure it's not null.
                     if (OnMaximum != null)
                     {
-                        OnMaximum(this, new MyEventArgs("You've entered "
-                                          + value.ToString() + ", but the maximum is "
-                                          + Maximum.ToString()));
+                        OnMaximum(this, new MyEventArgs("The value is: " + value.ToString()
+                            + " but the maximum is: "
+                            + Maximum
+                            ));
                     }
                 }
             }
